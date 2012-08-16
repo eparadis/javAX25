@@ -8,10 +8,10 @@ deprecation="false"
 optimize="true"
 debug="true" 
 fork="yes"
-	executable="c:\Program Files\Java\jdk1.6.0_24\bin\javac"
+	executable="javac"
 	>
 
-<classpath path="RXTXcomm.jar;javAPRSSrvr.jar" />
+<classpath path="lib/RXTXcomm.jar;lib/javAPRSSrvr.jar" />
 <src path="src" />
 <include name="**/*.java" />
 
